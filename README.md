@@ -8,6 +8,10 @@ An organiser uploads the rules and the team list. OurSport drafts the
 tournament: groups, seeding and a full match schedule. The organising team then
 keeps score from their phones, and fans follow along live.
 
+<video width="320" height="240" controls>
+  <source src="https://youtu.be/fKhR1SUV5xI?si=3jIh79fAuTrE7nNx" type="video/mp4">
+</video>
+
 ## Simple way to run
 
 ```
