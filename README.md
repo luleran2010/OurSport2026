@@ -11,6 +11,7 @@ keeps score from their phones, and fans follow along live.
 <video width="320" height="240" controls>
   <source src="https://youtu.be/fKhR1SUV5xI?si=3jIh79fAuTrE7nNx" type="video/mp4">
 </video>
+Youtube: https://youtu.be/fKhR1SUV5xI?si=3jIh79fAuTrE7nNx
 
 ## Simple way to run
 
