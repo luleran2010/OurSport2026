@@ -8,6 +8,16 @@ An organiser uploads the rules and the team list. OurSport drafts the
 tournament: groups, seeding and a full match schedule. The organising team then
 keeps score from their phones, and fans follow along live.
 
+## Simple way to run
+
+```
+# in backend
+uv run uvicorn app.main:app --reload --port 8000
+uv run python -m app.worker
+# in frontend
+npm run dev
+```
+
 ## Project layout
 
 | Path | What it is |
