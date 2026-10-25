@@ -1,0 +1,20 @@
+{
+  "name": "Tie decided by fair play",
+  "source": "FIFA World Cup 2018, Group H, official final table. Team names replaced: Colombia=Condors, Japan=Kites, Senegal=Lions, Poland=Pines. Yellow-card totals match the official fair-play record (Kites -4, Lions -6); how those cards were spread over the matches is not reproduced, which does not affect the table.",
+  "why": "Kites and Lions finished level on points (4), goal difference (0), goals scored (4) and their 2-2 meeting. Fair play decides: Kites 4 points against, Lions 6.",
+  "tiebreakers": "football_gd_first",
+  "results": [
+    {"home": "Condors", "away": "Kites", "score": [1, 2], "at": "2018-06-19", "away_yellow": 1},
+    {"home": "Pines", "away": "Lions", "score": [1, 2], "at": "2018-06-19", "away_yellow": 2},
+    {"home": "Kites", "away": "Lions", "score": [2, 2], "at": "2018-06-24", "home_yellow": 1, "away_yellow": 2},
+    {"home": "Pines", "away": "Condors", "score": [0, 3], "at": "2018-06-24"},
+    {"home": "Kites", "away": "Pines", "score": [0, 1], "at": "2018-06-28", "home_yellow": 2},
+    {"home": "Lions", "away": "Condors", "score": [0, 1], "at": "2018-06-28", "home_yellow": 2}
+  ],
+  "expected": [
+    {"team": "Condors", "position": 1, "points": 6, "goals_for": 5, "goals_against": 2},
+    {"team": "Kites", "position": 2, "points": 4, "goals_for": 4, "goals_against": 4, "decided_by": "fair_play"},
+    {"team": "Lions", "position": 3, "points": 4, "goals_for": 4, "goals_against": 4},
+    {"team": "Pines", "position": 4, "points": 3, "goals_for": 2, "goals_against": 5}
+  ]
+}

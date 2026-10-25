@@ -1,0 +1,77 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    services:
+      db:
+        image: postgres:16.15-alpine
+        env:
+          POSTGRES_USER: oursport
+          POSTGRES_PASSWORD: oursport
+          POSTGRES_DB: oursport
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U oursport -d oursport"
+          --health-interval 5s --health-timeout 3s --health-retries 10
+      redis:
+        image: redis:7.4.11-alpine
+        ports: ["6379:6379"]
+        options: >-
+          --health-cmd "redis-cli ping"
+          --health-interval 5s --health-timeout 3s --health-retries 10
+      mailpit:
+        image: axllent/mailpit:v1.32.0
+        ports: ["1025:1025", "8025:8025"]
+    env:
+      ENV: test
+      DATABASE_URL: postgresql+asyncpg://oursport:oursport@localhost:5432/oursport
+      REDIS_URL: redis://localhost:6379/0
+      JWT_SECRET: ci-secret-not-for-real-use-0123456789abcdef
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: "0.13.5"
+          enable-cache: true
+
+      - name: Install dependencies
+        run: uv sync --frozen
+
+      - name: Lint
+        run: |
+          uv run ruff check .
+          uv run ruff format --check .
+
+      - name: Type check
+        run: uv run mypy
+
+      - name: Module boundaries
+        run: uv run lint-imports
+
+      - name: Migrations apply and match the models
+        run: |
+          uv run alembic upgrade head
+          uv run alembic check
+
+      - name: Tests
+        run: uv run pytest
+
+  image:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build image
+        run: docker build -t oursport:ci .

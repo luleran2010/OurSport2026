@@ -1,0 +1,29 @@
+# Local environments and secrets
+**/.venv/
+**/venv/
+.env
+.env.*
+!.env.example
+
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+htmlcov/
+*.egg-info/
+
+# JavaScript dependencies and build output
+node_modules/
+dist/
+dist-ssr/
+
+# Local editor and OS files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.log

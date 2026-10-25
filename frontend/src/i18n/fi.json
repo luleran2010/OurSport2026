@@ -1,0 +1,20 @@
+{
+  "nav.home": "Etusivu",
+  "nav.live": "Nyt livenä",
+  "nav.schedule": "Otteluohjelma",
+  "nav.results": "Tulokset",
+  "nav.explore": "Tutki",
+  "nav.events": "Tapahtumat",
+  "nav.notifications": "Ilmoitukset",
+  "nav.account": "Tili",
+  "common.loading": "Ladataan…",
+  "common.retry": "Yritä uudelleen",
+  "common.save": "Tallenna",
+  "common.cancel": "Peruuta",
+  "common.today": "Tänään",
+  "common.tomorrow": "Huomenna",
+  "common.yesterday": "Eilen",
+  "match.live": "Live",
+  "match.fullTime": "Päättynyt",
+  "match.noScorer": "Ei kirjaajaa"
+}

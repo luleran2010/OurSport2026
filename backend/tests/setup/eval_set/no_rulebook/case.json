@@ -1,0 +1,18 @@
+{
+  "files": [
+    {
+      "file": "teams.csv",
+      "kind": "team_list"
+    }
+  ],
+  "llm": {},
+  "expect": {
+    "teams": 10,
+    "max_questions": 0,
+    "assumption_fields": [
+      "schedule.days",
+      "schedule.pitches",
+      "rules"
+    ]
+  }
+}

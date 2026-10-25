@@ -1,0 +1,24 @@
+/* Design tokens: colours, radius, fonts. Every area's styles use these variables.
+   Colours follow the Kaleva Media profile (kalevamedia-color-profile.md). */
+:root {
+  --bg: #f6f4ef;        /* Kaleva cream */
+  --surface: #ffffff;
+  --surface-2: #efebe2; /* Kaleva beige */
+  --line: #c5bca5;      /* Kaleva sand */
+  --text: #18191a;      /* Kaleva ink */
+  --muted: #696a62;     /* 5.5:1 on white */
+  --live: #b21125;      /* Kaleva error red, 7:1 on white */
+  --accent: #244f83;    /* Kaleva CTA blue */
+  --on-accent: #ffffff; /* 8.3:1 on accent */
+  --link: #0062a9;
+  --bronze: #8b784a;
+  --warn: #ea8c1c;      /* fills and borders only */
+  --warn-text: #645635; /* Kaleva bronze-deep */
+  --ok: #65a500;        /* fills and borders only */
+  --ok-text: #3e6600;   /* darkened Kaleva green for text on light surfaces */
+  --ai: #5b45a8;        /* not in the Kaleva palette; kept so AI content stays distinct */
+  --radius: 14px;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-display: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+  color-scheme: light;
+}

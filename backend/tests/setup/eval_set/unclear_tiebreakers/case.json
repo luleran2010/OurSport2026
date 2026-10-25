@@ -1,0 +1,51 @@
+{
+  "files": [
+    {
+      "file": "rules.txt",
+      "kind": "rulebook"
+    },
+    {
+      "file": "teams.csv",
+      "kind": "team_list"
+    }
+  ],
+  "llm": {
+    "rules_extract.v1": {
+      "questions": [
+        {
+          "field": "rules.tiebreakers",
+          "text": "The rules give two different tiebreakers. Which comes first?",
+          "quotes": [
+            "goal difference decides",
+            "decided by the head-to-head result"
+          ],
+          "options": [
+            "goal difference",
+            "head-to-head"
+          ]
+        }
+      ]
+    },
+    "schedule_extract.v1": {
+      "days": [
+        {
+          "date": "2026-06-12",
+          "start": "09:00",
+          "end": "19:00",
+          "quote": "Friday 12 June 9-19"
+        }
+      ],
+      "pitches": {
+        "value": 4,
+        "quote": "four pitches"
+      }
+    }
+  },
+  "expect": {
+    "teams": 8,
+    "max_questions": 0,
+    "assumption_fields": [
+      "documents.rules.tiebreakers"
+    ]
+  }
+}

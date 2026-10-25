@@ -1,0 +1,72 @@
+# Local development infrastructure. `docker compose up -d` starts only the backing services;
+# the API runs on the host with `uv run uvicorn app.main:app --reload`.
+# `docker compose --profile app up -d` also runs the API container built from the Dockerfile.
+
+services:
+  db:
+    image: postgres:16.15-alpine
+    environment:
+      POSTGRES_USER: oursport
+      POSTGRES_PASSWORD: oursport
+      POSTGRES_DB: oursport
+    ports:
+      - "5432:5432"
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U oursport -d oursport"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  redis:
+    image: redis:7.4.11-alpine
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  # S3-compatible object storage. MinIO no longer publishes community images,
+  # so SeaweedFS's S3 gateway stands in locally; the app only speaks the S3 API.
+  s3:
+    image: chrislusf/seaweedfs:4.48
+    command: >
+      server -dir=/data -ip.bind=0.0.0.0
+      -s3 -s3.port=8333 -s3.config=/etc/seaweedfs/s3.json
+    ports:
+      - "8333:8333"
+    volumes:
+      - s3-data:/data
+      - ./docker/seaweedfs/s3.json:/etc/seaweedfs/s3.json:ro
+
+  mailpit:
+    image: axllent/mailpit:v1.32.0
+    ports:
+      - "1025:1025"   # SMTP
+      - "8025:8025"   # web UI
+
+  api:
+    profiles: ["app"]
+    build: .
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      DATABASE_URL: postgresql+asyncpg://oursport:oursport@db:5432/oursport
+      REDIS_URL: redis://redis:6379/0
+      S3_ENDPOINT_URL: http://s3:8333
+      EMAIL_SMTP_HOST: mailpit
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+
+volumes:
+  db-data:
+  s3-data:

@@ -1,0 +1,30 @@
+{
+  "files": [
+    {"file": "rules.txt", "kind": "rulebook"},
+    {"file": "teams.csv", "kind": "team_list"}
+  ],
+  "llm": {
+    "rules_extract.v1": {
+      "win_points": {"value": 3, "quote": "Win 3 points"},
+      "draw_points": {"value": 1, "quote": "draw 1 point"},
+      "loss_points": {"value": 0, "quote": "loss 0"},
+      "tiebreakers": ["points", "head_to_head_points", "score_diff", "score_for", "fair_play", "draw_lots"],
+      "tiebreakers_quote": "Equal points: head-to-head, goal difference, goals, fair play, lots",
+      "periods": {"value": 2, "quote": "2 x 20 minutes"},
+      "period_minutes": {"value": 20, "quote": "2 x 20 minutes"},
+      "half_time_minutes": {"value": 10, "quote": "a 10 minute break"}
+    },
+    "schedule_extract.v1": {
+      "days": [{"date": "2026-11-14", "start": "09:00", "end": "20:00", "quote": "Saturday 14 November 9-20"}],
+      "pitches": {"value": 2, "quote": "two courts"},
+      "breaks": []
+    },
+    "format_extract.v1": {
+      "group_count": {"value": 2, "quote": "Two groups of four"},
+      "per_group": {"value": 2, "quote": "the top two of each group"},
+      "third_place_match": {"value": true, "quote": "a bronze match"}
+    },
+    "seeding_extract.v1": {"previous_placements": [], "keep_apart": []}
+  },
+  "expect": {"teams": 8, "groups": [4, 4], "max_questions": 0}
+}

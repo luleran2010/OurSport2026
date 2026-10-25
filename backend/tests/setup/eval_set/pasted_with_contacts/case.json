@@ -1,0 +1,75 @@
+{
+  "files": [
+    {
+      "file": "rules.txt",
+      "kind": "rulebook"
+    },
+    {
+      "file": "teams.txt",
+      "kind": "team_list"
+    }
+  ],
+  "llm": {
+    "rules_extract.v1": {
+      "win_points": {
+        "value": 3,
+        "quote": "win 3 points"
+      },
+      "draw_points": {
+        "value": 1,
+        "quote": "draw 1 point"
+      },
+      "loss_points": {
+        "value": 0,
+        "quote": "loss 0"
+      },
+      "tiebreakers": [
+        "points",
+        "head_to_head_points",
+        "score_diff",
+        "score_for",
+        "fair_play",
+        "draw_lots"
+      ],
+      "tiebreakers_quote": "equal points: head-to-head, goal difference, goals, fair play, lots",
+      "periods": {
+        "value": 2,
+        "quote": "2 x 20 minutes"
+      },
+      "period_minutes": {
+        "value": 20,
+        "quote": "2 x 20 minutes"
+      },
+      "half_time_minutes": {
+        "value": 5,
+        "quote": "5 minute break"
+      }
+    },
+    "schedule_extract.v1": {
+      "days": [
+        {
+          "date": "2026-06-12",
+          "start": "09:00",
+          "end": "19:00",
+          "quote": "Friday 12 June 9-19"
+        }
+      ],
+      "pitches": {
+        "value": 2,
+        "quote": "two pitches"
+      }
+    }
+  },
+  "expect": {
+    "teams": 8,
+    "max_questions": 0,
+    "redacted": [
+      "phone",
+      "email"
+    ],
+    "never_sent": [
+      "+358 40 123 4567",
+      "team.contact@example.com"
+    ]
+  }
+}

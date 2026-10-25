@@ -1,0 +1,141 @@
+{
+  "files": [
+    {
+      "file": "rules.txt",
+      "kind": "rulebook"
+    },
+    {
+      "file": "teams.csv",
+      "kind": "team_list"
+    },
+    {
+      "file": "history.txt",
+      "kind": "history"
+    }
+  ],
+  "llm": {
+    "rules_extract.v1": {
+      "win_points": {
+        "value": 3,
+        "quote": "win 3 points"
+      },
+      "draw_points": {
+        "value": 1,
+        "quote": "draw 1 point"
+      },
+      "loss_points": {
+        "value": 0,
+        "quote": "loss 0"
+      },
+      "tiebreakers": [
+        "points",
+        "head_to_head_points",
+        "score_diff",
+        "score_for",
+        "fair_play",
+        "draw_lots"
+      ],
+      "tiebreakers_quote": "equal points: head-to-head, goal difference, goals, fair play, lots",
+      "periods": {
+        "value": 2,
+        "quote": "2 x 20 minutes"
+      },
+      "period_minutes": {
+        "value": 20,
+        "quote": "2 x 20 minutes"
+      },
+      "half_time_minutes": {
+        "value": 5,
+        "quote": "5 minute break"
+      }
+    },
+    "schedule_extract.v1": {
+      "days": [
+        {
+          "date": "2026-06-12",
+          "start": "09:00",
+          "end": "19:00",
+          "quote": "Friday 12 June 9-19"
+        },
+        {
+          "date": "2026-06-13",
+          "start": "09:00",
+          "end": "19:00",
+          "quote": "Saturday 9-19"
+        },
+        {
+          "date": "2026-06-14",
+          "start": "09:00",
+          "end": "19:00",
+          "quote": "Sunday 9-19"
+        }
+      ],
+      "pitches": {
+        "value": 4,
+        "quote": "four pitches"
+      },
+      "breaks": [
+        {
+          "start": "13:00",
+          "end": "13:30",
+          "quote": "prayer break 13:00-13:30"
+        }
+      ]
+    },
+    "format_extract.v1": {
+      "group_count": {
+        "value": 4,
+        "quote": "four groups"
+      },
+      "per_group": {
+        "value": 2,
+        "quote": "top two"
+      },
+      "third_place_match": {
+        "value": true,
+        "quote": "bronze match"
+      }
+    },
+    "seeding_extract.v1": {
+      "previous_placements": [
+        {
+          "team": "North Star",
+          "placement": 1,
+          "quote": "winner North Star"
+        },
+        {
+          "team": "Harbour Lions",
+          "placement": 2,
+          "quote": "runner-up Harbour Lions"
+        },
+        {
+          "team": "Pine Rangers",
+          "placement": 3,
+          "quote": "semi-finalists Pine Rangers"
+        },
+        {
+          "team": "Lake Falcons",
+          "placement": 3,
+          "quote": "and Lake Falcons"
+        }
+      ],
+      "keep_apart": [
+        {
+          "rule": "previous_semi_finalists",
+          "quote": "Last year's semi-finalists are placed in different groups."
+        }
+      ]
+    }
+  },
+  "expect": {
+    "teams": 16,
+    "groups": [
+      4,
+      4,
+      4,
+      4
+    ],
+    "max_questions": 0,
+    "separation": "semi-finalists"
+  }
+}

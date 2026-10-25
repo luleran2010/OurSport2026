@@ -1,0 +1,20 @@
+{
+  "name": "Four-way tie on points and goal difference",
+  "source": "FIFA World Cup 1994, Group E, official final table. Team names replaced: Mexico=Falcons, Ireland=Harbour, Italy=Lanterns, Norway=Northwind.",
+  "why": "All four teams finished on 4 points with goal difference 0. Goals scored separates Falcons (3) and Northwind (1); Harbour and Lanterns are still level (2 goals each), and Harbour won their meeting 1-0.",
+  "tiebreakers": "football_gd_first",
+  "results": [
+    {"home": "Harbour", "away": "Lanterns", "score": [1, 0], "at": "1994-06-18"},
+    {"home": "Northwind", "away": "Falcons", "score": [1, 0], "at": "1994-06-19"},
+    {"home": "Lanterns", "away": "Northwind", "score": [1, 0], "at": "1994-06-23"},
+    {"home": "Falcons", "away": "Harbour", "score": [2, 1], "at": "1994-06-24"},
+    {"home": "Lanterns", "away": "Falcons", "score": [1, 1], "at": "1994-06-28"},
+    {"home": "Harbour", "away": "Northwind", "score": [0, 0], "at": "1994-06-28"}
+  ],
+  "expected": [
+    {"team": "Falcons", "position": 1, "points": 4, "goals_for": 3, "goals_against": 3},
+    {"team": "Harbour", "position": 2, "points": 4, "goals_for": 2, "goals_against": 2},
+    {"team": "Lanterns", "position": 3, "points": 4, "goals_for": 2, "goals_against": 2},
+    {"team": "Northwind", "position": 4, "points": 4, "goals_for": 1, "goals_against": 1}
+  ]
+}

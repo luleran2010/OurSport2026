@@ -1,0 +1,11 @@
+{
+  "identities": [
+    {
+      "name": "local-dev",
+      "credentials": [
+        { "accessKey": "oursport-local", "secretKey": "oursport-local-secret" }
+      ],
+      "actions": ["Admin", "Read", "Write", "List", "Tagging"]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Three-way tie decided on head-to-head goals",
+  "source": "UEFA EURO 2004, Group C, official final table. Team names replaced: Sweden=Ravens, Denmark=Dunes, Italy=Olives, Bulgaria=Roses.",
+  "why": "Ravens, Dunes and Olives finished on 5 points and drew all their matches against each other (2 points, goal difference 0 each in the mini-table). Head-to-head goals scored decides: Ravens 3, Dunes 2, Olives 1.",
+  "tiebreakers": "football_h2h_first",
+  "results": [
+    {"home": "Dunes", "away": "Olives", "score": [0, 0], "at": "2004-06-14"},
+    {"home": "Ravens", "away": "Roses", "score": [5, 0], "at": "2004-06-14"},
+    {"home": "Roses", "away": "Dunes", "score": [0, 2], "at": "2004-06-18"},
+    {"home": "Olives", "away": "Ravens", "score": [1, 1], "at": "2004-06-18"},
+    {"home": "Olives", "away": "Roses", "score": [2, 1], "at": "2004-06-22"},
+    {"home": "Dunes", "away": "Ravens", "score": [2, 2], "at": "2004-06-22"}
+  ],
+  "expected": [
+    {"team": "Ravens", "position": 1, "points": 5, "goals_for": 8, "goals_against": 3},
+    {"team": "Dunes", "position": 2, "points": 5, "goals_for": 4, "goals_against": 2},
+    {"team": "Olives", "position": 3, "points": 5, "goals_for": 3, "goals_against": 2},
+    {"team": "Roses", "position": 4, "points": 0, "goals_for": 1, "goals_against": 9}
+  ]
+}

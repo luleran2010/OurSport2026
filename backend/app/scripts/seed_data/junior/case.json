@@ -1,0 +1,72 @@
+{
+  "files": [
+    {
+      "file": "rules.txt",
+      "kind": "rulebook"
+    },
+    {
+      "file": "teams.csv",
+      "kind": "team_list"
+    }
+  ],
+  "llm": {
+    "rules_extract.v1": {
+      "win_points": {
+        "value": 3,
+        "quote": "Win 3"
+      },
+      "draw_points": {
+        "value": 1,
+        "quote": "draw 1"
+      },
+      "loss_points": {
+        "value": 0,
+        "quote": "Win 3, draw 1"
+      },
+      "periods": {
+        "value": 2,
+        "quote": "2 x 15 minutes"
+      },
+      "period_minutes": {
+        "value": 15,
+        "quote": "2 x 15 minutes"
+      },
+      "half_time_minutes": {
+        "value": 5,
+        "quote": "5 minute break"
+      }
+    },
+    "schedule_extract.v1": {
+      "days": [
+        {
+          "date": "2026-09-05",
+          "start": "10:00",
+          "end": "16:00",
+          "quote": "four Saturdays 10-16"
+        },
+        {
+          "date": "2026-09-12",
+          "start": "10:00",
+          "end": "16:00",
+          "quote": "four Saturdays 10-16"
+        },
+        {
+          "date": "2026-09-19",
+          "start": "10:00",
+          "end": "16:00",
+          "quote": "four Saturdays 10-16"
+        },
+        {
+          "date": "2026-09-26",
+          "start": "10:00",
+          "end": "16:00",
+          "quote": "four Saturdays 10-16"
+        }
+      ],
+      "pitches": {
+        "value": 2,
+        "quote": "two pitches"
+      }
+    }
+  }
+}

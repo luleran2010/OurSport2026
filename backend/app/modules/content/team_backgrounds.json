@@ -1,0 +1,285 @@
+{
+  "version": 1,
+  "teams": {
+    "Aurora Futsal": {
+      "en": "A flickering northern glow seems to dance across the court whenever this side takes the floor.",
+      "fi": "Välkkyvä pohjoinen hehku tuntuu tanssivan kentällä aina, kun tämä joukkue astuu parketille.",
+      "bn": "এই দল যখন মাঠে নামে, তখন যেন উত্তরের এক ঝলমলে আভা কোর্টজুড়ে নাচতে থাকে।"
+    },
+    "Bay Strikers": {
+      "en": "A salt-tinged breeze and the rhythm of lapping waves seem to follow their sharp attacking spirit.",
+      "fi": "Suolainen tuulenvire ja rantautuvien aaltojen rytmi tuntuvat seuraavan heidän terävää hyökkäyshenkeään.",
+      "bn": "লবণাক্ত হাওয়া আর ঢেউয়ের ছন্দ যেন তাদের ধারালো আক্রমণী চেতনার সঙ্গে চলে।"
+    },
+    "Birch Hill": {
+      "en": "Slender pale trunks and rustling leaves give this team a quiet, steady woodland character.",
+      "fi": "Hoikat vaaleat rungot ja kahisevat lehdet antavat tälle joukkueelle tyynen, vakaan metsäluonteen.",
+      "bn": "সরু ফ্যাকাশে কাণ্ড আর মর্মরিত পাতা এই দলকে এক শান্ত, স্থির বনসুলভ চরিত্র দেয়।"
+    },
+    "Bridge City": {
+      "en": "Arches and spans thread through their play like crossings joining two banks into one flow.",
+      "fi": "Kaaret ja jännevälit kulkevat heidän pelissään kuin ylitykset, jotka liittävät kaksi rantaa yhdeksi virraksi.",
+      "bn": "খিলান আর সেতুবন্ধ তাদের খেলার মধ্য দিয়ে এমনভাবে চলে, যেন দুই তীর মিলে একই স্রোতে মিশে যায়।"
+    },
+    "Cedar Athletic": {
+      "en": "A quiet club said to draw its steady spirit from the scent of cedar drifting over the pitch.",
+      "fi": "Tyyni seura, jonka sanotaan ammentavan vakaata henkeään kentän yllä leijuvasta setrin tuoksusta.",
+      "bn": "এক শান্ত ক্লাব, যার স্থির মনোভাব নাকি মাঠের উপর ভেসে আসা সিডার গাছের সুবাস থেকে আসে।"
+    },
+    "Espoo Eagles": {
+      "en": "A soaring motif of broad wings and open skies gives this side its airy, upward feel.",
+      "fi": "Leveiden siipien ja avaran taivaan kohoava kuvio antaa tälle joukkueelle ilmavan, ylöspäin suuntautuvan tunnun.",
+      "bn": "প্রশস্ত ডানা আর খোলা আকাশের এক উড্ডীয়মান প্রতীক এই দলকে দেয় হালকা, ঊর্ধ্বমুখী এক আবহ।"
+    },
+    "Fast Foxes": {
+      "en": "A nimble, darting motif of quick turns and sudden bursts shapes this team's imagined character.",
+      "fi": "Ketterä, sinkoileva kuvio nopeista käännöksistä ja äkillisistä pyrähdyksistä muovaa tämän joukkueen kuviteltua luonnetta.",
+      "bn": "দ্রুত মোড় আর হঠাৎ ছুটে চলার এক চটপটে, ছুটন্ত প্রতীক এই দলের কল্পিত চরিত্র গড়ে তোলে।"
+    },
+    "Forest Wolves": {
+      "en": "A shadowy woodland motif of patient packs moving together lends this team its quiet, watchful mood.",
+      "fi": "Varjoisa metsäkuvio kärsivällisistä, yhdessä liikkuvista laumoista antaa tälle joukkueelle sen hiljaisen, tarkkailevan sävyn.",
+      "bn": "ধৈর্য ধরে একসাথে চলা দলের এক ছায়াময় বনভূমির প্রতীক এই দলকে দেয় নীরব, সতর্ক এক মেজাজ।"
+    },
+    "Harbour Athletic": {
+      "en": "A fictional side whose spirit drifts in with the tide and settles quietly around the floodlights.",
+      "fi": "Kuvitteellinen joukkue, jonka henki saapuu vuoroveden mukana ja asettuu hiljaa valojen ympärille.",
+      "bn": "একটি কাল্পনিক দল, যার আত্মা জোয়ারের সঙ্গে ভেসে আসে এবং ফ্লাডলাইটের চারপাশে নীরবে থিতিয়ে পড়ে।"
+    },
+    "Harbour Athletic U12": {
+      "en": "A make-believe youth crew that chases the salt wind and gathers loose dreams along the shoreline.",
+      "fi": "Kuvitteellinen nuorisojoukko, joka jahtaa suolaisen tuulen henkäystä ja kerää irrallisia unelmia rannalta.",
+      "bn": "একটি কাল্পনিক তরুণ দল, যারা লবণাক্ত বাতাসের পিছু ছোটে এবং তীরে ছড়িয়ে থাকা স্বপ্ন কুড়িয়ে নেয়।"
+    },
+    "Harbour Five": {
+      "en": "An invented indoor ensemble weaving quick patterns beneath a dome of warm, humming light.",
+      "fi": "Keksitty sisäjoukkue, joka kutoo nopeita kuvioita lämpimän, hyrisevän valon holvin alla.",
+      "bn": "একটি কল্পিত ইনডোর দল, যারা উষ্ণ, গুনগুন করা আলোর গম্বুজের নিচে দ্রুত নকশা বুনে চলে।"
+    },
+    "Harbour Lions": {
+      "en": "A purely fictional pride imagined pacing the waterfront, manes ruffled by a forgiving breeze.",
+      "fi": "Täysin kuvitteellinen lauma, jonka kuvitellaan kävelevän rantakadulla harjan hulmahtaessa lempeässä tuulessa.",
+      "bn": "একটি সম্পূর্ণ কাল্পনিক বাহিনী, যাদের কল্পনা করা হয় জলপ্রান্তরে পায়চারি করতে, কোমল বাতাসে কেশর দুলতে থাকে।"
+    },
+    "Helsinki Hawks": {
+      "en": "A soaring flock of hawks drifts above the harbor, tracing wide circles in the cold northern sky.",
+      "fi": "Liitävä haukkaparvi ajelehtii sataman yllä ja piirtää laajoja kierteitä kylmälle pohjoiselle taivaalle.",
+      "bn": "বন্দরের ওপর ভেসে বেড়ায় এক ঝাঁক বাজপাখি, ঠান্ডা উত্তর আকাশে এঁকে চলে বিস্তৃত বৃত্ত।"
+    },
+    "Hill Rovers": {
+      "en": "Restless wanderers roam the green ridges, always chasing the next gentle slope.",
+      "fi": "Levottomat vaeltajat harhailevat vihreillä harjanteilla ja etsivät aina seuraavaa lempeää rinnettä.",
+      "bn": "অশান্ত পথিকরা সবুজ পাহাড়ের চূড়ায় ঘুরে বেড়ায়, সবসময় পরের মৃদু ঢালের খোঁজে।"
+    },
+    "Hilltop Rangers": {
+      "en": "Watchful figures stand on the high crest, scanning the misty valleys below with quiet patience.",
+      "fi": "Tarkkaavaiset hahmot seisovat korkealla harjalla ja katsovat sumuisia laaksoja hiljaisella kärsivällisyydellä.",
+      "bn": "সতর্ক ছায়ামূর্তি দাঁড়িয়ে থাকে উঁচু চূড়ায়, শান্ত ধৈর্যে নিচের কুয়াশাঢাকা উপত্যকা নিরীক্ষণ করে।"
+    },
+    "Hilltop Rangers U12": {
+      "en": "Young dreamers gather on the breezy summit, learning to read the wind and the winding trails.",
+      "fi": "Nuoret unelmoijat kokoontuvat tuuliselle huipulle ja opettelevat lukemaan tuulta ja mutkittelevia polkuja.",
+      "bn": "তরুণ স্বপ্নদ্রষ্টারা জড়ো হয় হাওয়ায় ভরা চূড়ায়, শেখে বাতাস আর আঁকাবাঁকা পথ পড়তে।"
+    },
+    "Iron Park": {
+      "en": "A weathered ground where echoes of old cheers seem to linger in the rust-colored fences.",
+      "fi": "Kulunut kenttä, jossa vanhojen kannustusten kaiku tuntuu viipyvän ruosteenvärisissä aidoissa.",
+      "bn": "একটি জীর্ণ মাঠ, যেখানে পুরনো উল্লাসের প্রতিধ্বনি মরচে-রঙা বেড়ায় lingering মনে হয়।"
+    },
+    "Junior Eagles": {
+      "en": "Young wings testing the wind above a field of possibility.",
+      "fi": "Nuoret siivet kokeilevat tuulta mahdollisuuksien kentän yllä.",
+      "bn": "সম্ভাবনার মাঠের ওপর তরুণ ডানা বাতাস পরীক্ষা করে।"
+    },
+    "Kallio Kickers": {
+      "en": "A gritty neighborhood spirit that turns every street corner into a stage for the game.",
+      "fi": "Sitkeä kaupunginosan henki, joka muuttaa jokaisen kadunkulman pelinäyttämöksi.",
+      "bn": "একটি কঠিন পাড়ার চেতনা, যা প্রতিটি রাস্তার মোড়কে খেলার মঞ্চে পরিণত করে।"
+    },
+    "Kid Kickers": {
+      "en": "Boundless energy and imaginary trophies carried in tiny, determined strides.",
+      "fi": "Rajaton energia ja kuvitteelliset palkinnot pienin, määrätietoisin askelin.",
+      "bn": "অসীম শক্তি আর কল্পিত ট্রফি ছোট্ট, দৃঢ় পদক্ষেপে বহন করা হয়।"
+    },
+    "Lake Falcons": {
+      "en": "A lakeside flock that rides the wind over still water and turns every shoreline breeze into a story.",
+      "fi": "Järven rannalla liitävä parvi, joka ratsastaa tuulella tyynen veden yllä ja punoo jokaisesta rantatuulesta tarinan.",
+      "bn": "হ্রদের ধারে উড়ে বেড়ানো এক ঝাঁক পাখি, যা শান্ত জলের ওপর বাতাসে ভর করে আর প্রতিটি তীরবর্তী হাওয়াকে গল্পে বদলে দেয়।"
+    },
+    "Lakeview Athletic": {
+      "en": "A club that draws its spirit from wide water views and the steady rhythm of a waking shore.",
+      "fi": "Seura, joka ammentaa henkensä avarista vesinäkymistä ja heräävän rannan tasaisesta rytmistä.",
+      "bn": "একটি দল, যার প্রাণবন্ততা আসে বিস্তীর্ণ জলরাশির দৃশ্য আর জেগে ওঠা তীরের স্থির ছন্দ থেকে।"
+    },
+    "Lakeview United": {
+      "en": "One shared horizon over the lake, gathering scattered energies into a single calm and determined pulse.",
+      "fi": "Yksi yhteinen horisontti järven yllä, joka kokoaa hajallaan olevat voimat yhdeksi tyyneksi ja määrätietoiseksi sykkeeksi.",
+      "bn": "হ্রদের ওপর একই দিগন্ত, যা ছড়িয়ে থাকা শক্তিকে এক শান্ত ও দৃঢ় স্পন্দনে একত্র করে।"
+    },
+    "Lakeview United U12": {
+      "en": "A young wave of hopeful players learning to move together like ripples crossing bright water.",
+      "fi": "Nuori toiveikas aalto, joka opettelee liikkumaan yhdessä kuin kirkkaan veden yli kulkevat väreet.",
+      "bn": "আশাবাদী তরুণ খেলোয়াড়দের এক তরঙ্গ, যারা উজ্জ্বল জলের ওপর ছড়িয়ে পড়া ঢেউয়ের মতো একসাথে চলতে শেখে।"
+    },
+    "Little Lions": {
+      "en": "A small pride of cubs learning to roar in unison under the stadium lights.",
+      "fi": "Pieni pentuelauma opettelee karjumaan yhdessä stadionin valojen alla.",
+      "bn": "স্টেডিয়ামের আলোয় একসাথে গর্জন শেখা ছোট্ট সিংহশাবকদের একটি দল।"
+    },
+    "Meadow City": {
+      "en": "A gentle green town where every match feels like a breeze across the grass.",
+      "fi": "Lempeä vihreä kaupunki, jossa jokainen ottelu tuntuu tuulenhenkäykseltä ruohikolla.",
+      "bn": "একটি শান্ত সবুজ শহর, যেখানে প্রতিটি ম্যাচ ঘাসের ওপর দিয়ে বয়ে যাওয়া হাওয়ার মতো অনুভূত হয়।"
+    },
+    "Meadow City U12": {
+      "en": "Young dreamers chasing a ball across sunlit fields with boundless energy.",
+      "fi": "Nuoret haaveilijat jahtaavat palloa auringon valaisemilla kentillä loputtomalla innolla.",
+      "bn": "সূর্যের আলোয় ভেজা মাঠে অফুরন্ত উদ্যমে বলের পেছনে ছুটে চলা তরুণ স্বপ্নদ্রষ্টারা।"
+    },
+    "Mini Falcons": {
+      "en": "Tiny wings practicing swift dives and graceful loops above the pitch.",
+      "fi": "Pienet siivet harjoittelevat nopeita syöksyjä ja sulavia kaaria kentän yllä.",
+      "bn": "মাঠের ওপরে দ্রুত ঝাঁপ ও সুন্দর বৃত্ত অনুশীলন করা ছোট্ট ডানারা।"
+    },
+    "Moon River": {
+      "en": "A quiet side whose play drifts like silver light across still water.",
+      "fi": "Hiljainen joukkue, jonka peli lipuu kuin hopeinen valo tyynellä vedellä.",
+      "bn": "এক শান্ত দল, যাদের খেলা স্থির জলে রুপালি আলোর মতো ভেসে বেড়ায়।"
+    },
+    "North Star": {
+      "en": "A guiding constellation of a team, always pointing toward something bright.",
+      "fi": "Joukkue kuin johtotähti, joka osoittaa aina kohti jotain kirkasta.",
+      "bn": "এক দল যেন পথপ্রদর্শক নক্ষত্র, সর্বদা উজ্জ্বল কিছুর দিকে ইশারা করে।"
+    },
+    "North Star U12": {
+      "en": "Young sparks gathering under a steadfast star, learning to shine together.",
+      "fi": "Nuoret kipinät kokoontuvat vakaan tähden alle oppien loistamaan yhdessä.",
+      "bn": "এক অটল তারার নিচে জড়ো হওয়া তরুণ স্ফুলিঙ্গ, একসাথে জ্বলতে শিখছে।"
+    },
+    "Northside Rovers": {
+      "en": "A wandering band from the northern edges, restless and always in motion.",
+      "fi": "Pohjoisilta laidoilta vaeltava joukko, levoton ja aina liikkeessä.",
+      "bn": "উত্তর প্রান্ত থেকে আসা এক ঘুরে বেড়ানো দল, অস্থির এবং সর্বদা চলমান।"
+    },
+    "Northside Rovers U12": {
+      "en": "A young band of wanderers chasing the ball across the northern fields.",
+      "fi": "Nuori kulkijoiden joukko jahtaa palloa pohjoisilla nurmilla.",
+      "bn": "উত্তরের মাঠে বলের পেছনে ছুটে চলা তরুণ ভ্রমণকারীদের একটি দল।"
+    },
+    "Northside Stars": {
+      "en": "Flickering lights above the northern pitch guide every pass and shot.",
+      "fi": "Pohjoisen kentän yllä tuikkivat valot ohjaavat jokaista syöttöä ja laukausta.",
+      "bn": "উত্তরের মাঠের উপরে জ্বলজ্বলে আলো প্রতিটি পাস আর শটকে পথ দেখায়।"
+    },
+    "Old Town": {
+      "en": "Cobbled streets and weathered walls shape the mood of this old-town side.",
+      "fi": "Mukulakivikadut ja sään kuluttamat muurit muovaavat tämän vanhan kaupungin joukkueen tunnelmaa.",
+      "bn": "পাথরের রাস্তা আর জীর্ণ দেয়াল এই পুরনো শহরের দলের আবহ গড়ে তোলে।"
+    },
+    "Old Town Albion": {
+      "en": "An old-town emblem wrapped in mist and the echo of distant bells.",
+      "fi": "Vanhan kaupungin tunnus kietoutuneena sumuun ja kaukaisten kellojen kaikuun.",
+      "bn": "কুয়াশা আর দূরের ঘণ্টাধ্বনির প্রতিধ্বনিতে মোড়া পুরনো শহরের এক প্রতীক।"
+    },
+    "Old Town Albion U12": {
+      "en": "A young side said to play with the cobblestone grit of an old market square, always chasing the next clever pass.",
+      "fi": "Nuori joukko, jonka sanotaan pelaavan kuin vanhan torin mukulakivet — aina seuraavan ovelan syötön perässä.",
+      "bn": "পুরোনো বাজারের পাথুরে দৃঢ়তা নিয়ে খেলে বলে শোনা যায় এই তরুণ দল, সবসময় পরের চতুর পাসের পিছনে।"
+    },
+    "Oulu Owls": {
+      "en": "A night-minded squad whose play glides quietly like owls across a northern sky.",
+      "fi": "Yöhenkinen joukkue, jonka peli liitää hiljaa kuin pöllöt pohjoisella taivaalla.",
+      "bn": "রাতপিয়াসী এক দল, যাদের খেলা উত্তর আকাশে পেঁচার মতো নিঃশব্দে ভেসে চলে।"
+    },
+    "Pine Rangers": {
+      "en": "A forest-hearted team that moves with the steady patience of tall pines.",
+      "fi": "Metsäsydäminen joukkue, joka liikkuu pitkien mäntyjen tasaisella kärsivällisyydellä.",
+      "bn": "বনহৃদয় এক দল, যারা লম্বা পাইনের ধীর ধৈর্যে এগিয়ে চলে।"
+    },
+    "Pinewood Wanderers": {
+      "en": "A drifting, curious side that seems to follow winding woodland paths wherever the ball leads.",
+      "fi": "Vaeltava ja utelias joukkue, joka näyttää seuraavan metsän polkuja minne pallo ikinä viekään.",
+      "bn": "ঘুরে বেড়ানো কৌতূহলী এক দল, মনে হয় বল যেদিকেই নিয়ে যায়, তারা বনের আঁকাবাঁকা পথই অনুসরণ করে।"
+    },
+    "Pinewood Wanderers U12": {
+      "en": "A young squad that wanders the pine-lined paths of imagination, chasing the ball and the breeze.",
+      "fi": "Nuori joukko, joka vaeltaa mielikuvituksen mäntymetsäpoluilla pallon ja tuulen perässä.",
+      "bn": "একটি তরুণ দল যা কল্পনার পাইন-সজ্জিত পথে ঘুরে বেড়ায়, বল এবং বাতাসের পিছনে ছুটে।"
+    },
+    "Riverbend FC": {
+      "en": "A team whose spirit flows like the river's bend, always finding a new way forward.",
+      "fi": "Joukkue, jonka henki virtaa kuin joen mutka, löytäen aina uuden tien eteenpäin.",
+      "bn": "একটি দল যার আত্মা নদীর বাঁকের মতো প্রবাহিত হয়, সর্বদা এগিয়ে যাওয়ার নতুন পথ খুঁজে পায়।"
+    },
+    "Riverside Stars": {
+      "en": "They shimmer like starlight on the water's edge, a constellation of effort and grace.",
+      "fi": "He loistavat kuin tähtien valo veden reunalla, pyrkimyksen ja sulouden tähtikuvio.",
+      "bn": "তারা জলের ধারে তারার আলোর মতো ঝলমলে, প্রচেষ্টা এবং সৌন্দর্যের একটি নক্ষত্রমণ্ডল।"
+    },
+    "Riverside Stars U12": {
+      "en": "The youngest stars in the riverside galaxy, twinkling with promise and playful energy.",
+      "fi": "Joenrannan galaksin nuorimmat tähdet, jotka tuikkivat lupauksesta ja leikkisästä energiasta.",
+      "bn": "নদীতীরের ছায়াপথের সবচেয়ে তরুণ তারা, প্রতিশ্রুতি এবং খেলাচ্ছলে শক্তিতে জ্বলজ্বল করে।"
+    },
+    "Riverside U12": {
+      "en": "A young riverside side that plays with the restless energy of water finding its way.",
+      "fi": "Nuori jokivarsijoukkue, joka pelaa levottoman veden löytäessä tiensä kaltaisella energialla.",
+      "bn": "নদীর তীরের এক তরুণ দল, যা পথ খুঁজে নেওয়া জলের অস্থির প্রাণশক্তি নিয়ে খেলে।"
+    },
+    "Riverside United": {
+      "en": "A riverside collective whose spirit drifts like mist over slow morning currents.",
+      "fi": "Jokivarren yhteisö, jonka henki leijailee kuin sumu hitailla aamuvirroilla.",
+      "bn": "নদীর তীরের এক সমাবেশ, যার আত্মা ধীর সকালের স্রোতের উপর কুয়াশার মতো ভাসে।"
+    },
+    "Small Stars": {
+      "en": "A constellation of modest lights that glimmer brightest when gathered close together.",
+      "fi": "Vaatimattomien valojen tähtikuvio, joka tuikkii kirkkaimmin lähekkäin kokoontuneena.",
+      "bn": "বিনয়ী আলোর এক নক্ষত্রমণ্ডল, যা কাছাকাছি জড়ো হলে সবচেয়ে উজ্জ্বল হয়ে ওঠে।"
+    },
+    "Snowfield United": {
+      "en": "A wintry band that moves across the white expanse like a quiet, determined wind.",
+      "fi": "Talvinen joukko, joka kulkee valkean avaran yli kuin hiljainen, määrätietoinen tuuli.",
+      "bn": "শীতকালীন এক দল, যা শান্ত অথচ দৃঢ় বাতাসের মতো সাদা বিস্তৃতির উপর এগিয়ে চলে।"
+    },
+    "Stone Bridge": {
+      "en": "A weathered stone span carries quiet echoes of old journeys across the water.",
+      "fi": "Sään kuluttama kivisilta kantaa hiljaisia kaikuja vanhoilta matkoilta veden yli.",
+      "bn": "একটি জীর্ণ পাথরের সেতু জলের ওপর পুরোনো যাত্রার নীরব প্রতিধ্বনি বহন করে।"
+    },
+    "Sun Valley": {
+      "en": "Morning light pools in the valley as shadows slowly retreat from the slopes.",
+      "fi": "Aamun valo kokoontuu laaksoon, kun varjot vetäytyvät hitaasti rinteiltä.",
+      "bn": "সকালের আলো উপত্যকায় জমা হয়, আর ছায়া ধীরে ধীরে ঢাল থেকে সরে যায়।"
+    },
+    "Tampere Tigers": {
+      "en": "Striped shadows prowl the northern dusk with a patient, watchful stillness.",
+      "fi": "Raidalliset varjot kulkevat pohjoisessa hämärässä kärsivällisen tarkkaavaisina.",
+      "bn": "ডোরাকাটা ছায়ারা ধৈর্যশীল ও সতর্ক নিস্তব্ধতায় উত্তরাঞ্চলের গোধূলিতে ঘুরে বেড়ায়।"
+    },
+    "Tiny Tigers": {
+      "en": "Small fierce spirits dart through the tall grass with boundless playful energy.",
+      "fi": "Pienet villit henget viilettävät korkeassa ruohossa loputtoman leikkisällä energialla.",
+      "bn": "ছোট্ট সাহসী আত্মারা অসীম ক্রীড়াময় প্রাণশক্তিতে লম্বা ঘাসের মধ্যে ছুটে বেড়ায়।"
+    },
+    "Turku Thunder": {
+      "en": "A rolling echo of distant thunder gives this imaginary side its stormy air.",
+      "fi": "Kaukaisen ukkosen vyöryvä kaiku antaa tälle kuvitteelliselle joukkueelle myrskyisän tunnun.",
+      "bn": "দূরের বজ্রের গড়ানো প্রতিধ্বনি এই কাল্পনিক দলটিকে এক ঝড়ো আবহ দেয়।"
+    },
+    "Valley Eagles": {
+      "en": "Wings spread wide over a quiet valley, this fictional team carries a soaring, watchful spirit.",
+      "fi": "Siivet levällään hiljaisen laakson yllä tämä kuvitteellinen joukkue kantaa korkealle kohoavaa, valpasta henkeä.",
+      "bn": "নীরব উপত্যকার ওপর বিস্তৃত ডানায় এই কাল্পনিক দল বহন করে এক ঊর্ধ্বগামী, সতর্ক আত্মা।"
+    },
+    "Vantaa Vipers": {
+      "en": "A swift, sinuous presence gives this invented club its cool and quiet menace.",
+      "fi": "Nopea, kiemurteleva olemus antaa tälle keksitylle seuralle viileän ja hiljaisen uhkan.",
+      "bn": "দ্রুত ও আঁকাবাঁকা এক উপস্থিতি এই উদ্ভাবিত ক্লাবটিকে দেয় এক শীতল ও নীরব ভয়ের আভাস।"
+    },
+    "Young Rovers": {
+      "en": "Restless wanderers on the move, this fictional side suggests energy and open horizons.",
+      "fi": "Levottomina vaeltavat kulkijat antavat tälle kuvitteelliselle joukkueelle energiaa ja avaria horisontteja.",
+      "bn": "অস্থির পথিকের মতো ঘুরে বেড়ানো এই কাল্পনিক দলটি জোগায় প্রাণশক্তি ও মুক্ত দিগন্তের ইঙ্গিত।"
+    }
+  }
+}

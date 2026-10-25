@@ -1,0 +1,53 @@
+{
+  "names": {
+    "teams": ["Kotka Rovers", "Lake City FC", "Harbour United", "FC 1907 Riverside"],
+    "players": ["Public Striker", "Other Public"],
+    "private_players": ["Hidden Keeper", "Family Winger"]
+  },
+  "sheets": {
+    "cup_report": {
+      "subject_type": "match",
+      "kind": "report",
+      "context": {"is_junior": false, "show_probabilities": true, "languages": ["en", "fi", "bn"], "tone_profile": "adult"},
+      "facts": [
+        {"id": "f1", "kind": "fixture", "claim": "Kotka Rovers play Lake City FC (Group A)", "value": "A1", "source": "match:m1"},
+        {"id": "f2", "kind": "result", "claim": "Kotka Rovers 2-1 Lake City FC", "value": "2-1", "source": "match:m1"},
+        {"id": "f3", "kind": "goal", "claim": "Public Striker scored for Kotka Rovers in minute 5", "value": 5, "unit": "minute", "source": "match_event:m1:1"},
+        {"id": "f4", "kind": "goal", "claim": "Lake City FC scored in minute 17", "value": 17, "unit": "minute", "source": "match_event:m1:2"},
+        {"id": "f5", "kind": "goal", "claim": "Kotka Rovers scored in minute 31", "value": 31, "unit": "minute", "source": "match_event:m1:3"},
+        {"id": "f6", "kind": "position", "claim": "Kotka Rovers are 1st in Group A with 6 points from 2 matches", "value": 1, "source": "standings_snapshot:v4"},
+        {"id": "f7", "kind": "position", "claim": "Lake City FC are 3rd in Group A with 3 points from 2 matches", "value": 3, "source": "standings_snapshot:v4"},
+        {"id": "f8", "kind": "qualified", "claim": "Kotka Rovers qualified for the knockout stage", "value": null, "source": "match_analysis:v4"}
+      ]
+    },
+    "junior_report": {
+      "subject_type": "match",
+      "kind": "report",
+      "context": {"is_junior": true, "show_probabilities": false, "languages": ["en", "fi", "bn"], "tone_profile": "junior"},
+      "facts": [
+        {"id": "f1", "kind": "result", "claim": "Kotka Rovers 4-0 Lake City FC", "value": "4-0", "source": "match:m2"},
+        {"id": "f2", "kind": "position", "claim": "Lake City FC are 4th in Group B with 0 points from 3 matches", "value": 4, "source": "standings_snapshot:v9"}
+      ]
+    },
+    "preview_no_probabilities": {
+      "subject_type": "match",
+      "kind": "preview",
+      "context": {"is_junior": false, "show_probabilities": false, "languages": ["en", "fi", "bn"], "tone_profile": "adult"},
+      "facts": [
+        {"id": "f1", "kind": "fixture", "claim": "Kotka Rovers play Harbour United (Group A)", "value": "A5", "source": "match:m3"},
+        {"id": "f2", "kind": "reason", "claim": "Kotka Rovers: won 2 of last 2", "value": null, "source": "prediction:v4"},
+        {"id": "f3", "kind": "reason", "claim": "slight edge for the home side on results so far", "value": null, "source": "prediction:v4"}
+      ]
+    },
+    "riverside_result": {
+      "subject_type": "match",
+      "kind": "report",
+      "context": {"is_junior": false, "show_probabilities": true, "languages": ["en", "fi", "bn"], "tone_profile": "adult"},
+      "facts": [
+        {"id": "f1", "kind": "result", "claim": "FC 1907 Riverside 1-0 Harbour United", "value": "1-0", "source": "match:m4"},
+        {"id": "f2", "kind": "placement", "claim": "FC 1907 Riverside won the tournament", "value": 1, "source": "final_placements"},
+        {"id": "f3", "kind": "status", "claim": "Harbour United: eliminated", "value": "eliminated", "source": "scenario_snapshot:v12"}
+      ]
+    }
+  }
+}

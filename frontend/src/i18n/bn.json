@@ -1,0 +1,20 @@
+{
+  "nav.home": "হোম",
+  "nav.live": "এখন লাইভ",
+  "nav.schedule": "সূচি",
+  "nav.results": "ফলাফল",
+  "nav.explore": "খুঁজুন",
+  "nav.events": "ইভেন্ট",
+  "nav.notifications": "বিজ্ঞপ্তি",
+  "nav.account": "অ্যাকাউন্ট",
+  "common.loading": "লোড হচ্ছে…",
+  "common.retry": "আবার চেষ্টা করুন",
+  "common.save": "সংরক্ষণ করুন",
+  "common.cancel": "বাতিল",
+  "common.today": "আজ",
+  "common.tomorrow": "আগামীকাল",
+  "common.yesterday": "গতকাল",
+  "match.live": "লাইভ",
+  "match.fullTime": "খেলা শেষ",
+  "match.noScorer": "কোনো স্কোরার নেই"
+}

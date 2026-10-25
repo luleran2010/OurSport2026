@@ -1,0 +1,20 @@
+{
+  "nav.home": "Home",
+  "nav.live": "Live now",
+  "nav.schedule": "Schedule",
+  "nav.results": "Results",
+  "nav.explore": "Explore",
+  "nav.events": "Events",
+  "nav.notifications": "Notifications",
+  "nav.account": "Account",
+  "common.loading": "Loading…",
+  "common.retry": "Try again",
+  "common.save": "Save",
+  "common.cancel": "Cancel",
+  "common.today": "Today",
+  "common.tomorrow": "Tomorrow",
+  "common.yesterday": "Yesterday",
+  "match.live": "Live",
+  "match.fullTime": "Full time",
+  "match.noScorer": "No scorer"
+}

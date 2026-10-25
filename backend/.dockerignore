@@ -1,0 +1,14 @@
+.git
+.venv
+.vscode
+**/__pycache__
+.pytest_cache
+.mypy_cache
+.ruff_cache
+.hypothesis
+.env
+docs
+tests
+**/tests
+docker-compose.yml
+Makefile
